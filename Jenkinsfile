@@ -22,7 +22,7 @@ pipeline {
         }
         
         
-        stage ('Push the changed deployment yaml file to Git') {
+        stage ('deploy yaml file pushed back to Git') {
 
             steps {  
                 echo 'Pushing changed files to Git' 
